@@ -70,6 +70,11 @@ export default {
 
   .v-alert
     background-color: #EEEEEE !important
+    p
+      text-align: center
+      font-size: 1rem
+      @include mobile
+        font-size: 1.2rem
 
   .v-alert__wrapper
     height: 45px
@@ -80,10 +85,4 @@ export default {
 
 .v-icon
   margin: auto
-
-p
-  text-align: center
-  font-size: 1rem
-  @include mobile
-    font-size: 1.2rem
 </style>
