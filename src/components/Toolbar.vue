@@ -50,7 +50,6 @@ export default {};
   height: 85vh
   background-size: cover
   background-position: center
-  // position: relative
 
   .nav-container
     position: fixed
