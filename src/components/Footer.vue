@@ -18,7 +18,7 @@
       </v-col>
       <v-col :cols="xs || sm ? '12' : '5'" class="footer-links-container">
         <v-col class="footer-links-container-list">
-          <p class="footer-title" @click="imprimir">Links</p>
+          <p class="footer-title">Links</p>
           <ul>
             <li>
               <a href="#">Base de conhecimento</a>
@@ -99,9 +99,6 @@ export default {
     },
   },
   methods: {
-    imprimir() {
-      console.log(this.$vuetify.breakpoint);
-    },
   },
 };
 </script>
